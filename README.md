@@ -23,4 +23,5 @@ edit -isLed true
 You can also change multiple variables at once, and in any order  
 `edit -isLed false -numberOfPixels 2137`   
 String variable, suports spaces and other special character  
-`edit -nameOfProduct 'it's linux terminal co remember about quotes!!!' `   
+`edit -nameOfProduct 'it's linux terminal so remember about quotes!!!' `   
+
