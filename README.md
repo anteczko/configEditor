@@ -12,15 +12,15 @@ It is realy simple config editor written as recruitment job, I guess It could be
 `./edit`
 
 ### Usage
-By default program loads variables from config file and also checks their value correctness. Is value in file isn't correct il loads it anyway, but gives you feedback about what value is expected for this variable.
+By default program loads variables from config file and also checks their value correctness. Is value in file isn't correct il loads it anyway, but gives you feedback about what value is expected for this variable. Knowing that by default variable are't in correct ranges program will command you to correct any of them.
 
 #### Paramaters
-To change variable value run
+To change variable value run  
 ```
 edit -variableName <newValue>
 edit -isLed true
 ```
-You can also change multiple variables at once, and in any order
+You can also change multiple variables at once, and in any order  
 `edit -isLed false -numberOfPixels 2137`
-String variable, suports spaces and other special character
+String variable, suports spaces and other special character  
 `edit -nameOfProduct 'it's linux terminal co remember about quotes!!!' `
