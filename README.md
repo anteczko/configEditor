@@ -3,24 +3,24 @@ It is realy simple config editor written as recruitment job, I guess It could be
 
 ### Instalation
 1. Download this repository by using command
-'git clone https://github.com/anteczko/configEditor'
+`git clone https://github.com/anteczko/configEditor`
 2. Get into folder
-'cd configEditor'
+`cd configEditor`
 3. Change program file permission
-'chmod +x ./edit'
+`chmod +x ./edit`
 4. Run it
-'./edit'
+`./edit`
 
 ### Usage
 By default program loads variables from config file and also checks their value correctness. Is value in file isn't correct il loads it anyway, but gives you feedback about what value is expected for this variable.
 
 #### Paramaters
 To change variable value run
-'''
+```
 edit -variableName <newValue>
 edit -isLed true
-'''
+```
 You can also change multiple variables at once, and in any order
-'edit -isLed false -numberOfPixels 2137'
+`edit -isLed false -numberOfPixels 2137`
 String variable, suports spaces and other special character
-'edit -nameOfProduct 'it's linux terminal co remember about quotes!!!' '
+`edit -nameOfProduct 'it's linux terminal co remember about quotes!!!' `
